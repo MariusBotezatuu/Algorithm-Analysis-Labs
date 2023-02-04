@@ -1,4 +1,4 @@
-#matrix exponentiation
+#matrix exponentiation method
 
 def multiply(A, B):
     a, b, c = A

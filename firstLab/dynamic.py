@@ -1,3 +1,5 @@
+#dynamic programming method
+
 def fibonacciDynamic(n, memo={}):
     if n <= 0:
         return 0

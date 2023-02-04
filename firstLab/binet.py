@@ -1,3 +1,5 @@
+#binet method
+
 from decimal import *
 
 def fibonacciBinet(n):

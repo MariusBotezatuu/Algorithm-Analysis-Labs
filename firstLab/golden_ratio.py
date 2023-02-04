@@ -1,3 +1,5 @@
+#golden ratio method
+
 import math
 import decimal
 

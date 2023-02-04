@@ -1,4 +1,4 @@
-#matrix multiplication
+#matrix multiplication method
 
 def matrix_mult(A, B):
     C = [[0, 0], [0, 0]]
