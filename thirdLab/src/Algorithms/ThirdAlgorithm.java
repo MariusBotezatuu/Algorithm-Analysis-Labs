@@ -1,8 +1,10 @@
+package Algorithms;
+
 import java.util.*;
 
 public class ThirdAlgorithm {
 
-    public static List<Integer> findPrimes(int n) {
+    public static void findPrimes(int n) {
         boolean[] c = new boolean[n + 1];
         Arrays.fill(c, true);
         c[1] = false;
@@ -19,13 +21,7 @@ public class ThirdAlgorithm {
             }
             i++;
         }
-        List<Integer> primes = new ArrayList<>();
-        for (i = 2; i <= n; i++) {
-            if (c[i]) {
-                primes.add(i);
-            }
-        }
-        return primes;
+
     }
 
 }
